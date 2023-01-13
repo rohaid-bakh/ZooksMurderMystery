@@ -3,6 +3,8 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Assertions;
 
+/// <Author> Author: Rohaid & Sealow </Author> 
+/// <Summary>Purpose: Handels all the loading of suspect information into info panel./// </Summary>
 public class DisplaySuspectInfo : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI nameText, ageText, attributesText, crText;
@@ -12,6 +14,9 @@ public class DisplaySuspectInfo : MonoBehaviour
         Assert.IsNotNull(ageText,$"The age text field is empty. Please fill");
         Assert.IsNotNull(attributesText,$"The attributes text field is empty. Please fill");
         Assert.IsNotNull(crText,$"The crtext field is empty. Please fill");
+
+        //always have this object turned off when the game first starts.
+        gameObject.SetActive(false);
     }
 
     public void DisplayInfo(Suspect suspectSO){

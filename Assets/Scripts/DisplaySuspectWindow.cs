@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Assertions;
 
+/// <Author> Author: Rohaid </Author> 
+/// <Summary>Purpose: Attached to all character buttons. Holds relevant suspect SO./// </Summary>
 public class DisplaySuspectWindow : MonoBehaviour
 {
     private DisplaySuspectInfo infoScript;
