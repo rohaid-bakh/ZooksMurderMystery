@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d59c501f682f7147bd966f0ef1c0daa, type: 3}
+  m_Name: Alice
+  m_EditorClassIdentifier: 
+  sName: Alice
+  sAlias: The RA
+  age: 19
+  attributes: 00000000010000000200000006000000
+  crimeRelation: 'Alice is the one to initially find the body
+
+    Once found, she
+    then moves the body.
+
+    Later on, her DNA is found on the body.'
