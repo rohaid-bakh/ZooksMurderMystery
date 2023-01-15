@@ -14,9 +14,13 @@ public class DisplaySuspectWindow : MonoBehaviour
 
         Assert.IsNotNull(suspectSO, $"The suspect field of {gameObject.name} is empty");
         Assert.IsNotNull(infoScript, "The DisplaySuspectInfo script is missing from the scene. Please apply it.");
+          //Placed here instead of in DisplaySuspectInfo Awake() 
+          //because putting it there will turn it off on first click
+        infoScript.gameObject.SetActive(false);
     }
 
     public void SendInfo(){
+        Debug.Log("The button has been pressed");
         infoScript.DisplayInfo(suspectSO);
     }
 

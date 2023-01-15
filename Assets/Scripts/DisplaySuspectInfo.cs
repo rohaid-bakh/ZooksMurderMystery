@@ -14,9 +14,6 @@ public class DisplaySuspectInfo : MonoBehaviour
         Assert.IsNotNull(ageText,$"The age text field is empty. Please fill");
         Assert.IsNotNull(attributesText,$"The attributes text field is empty. Please fill");
         Assert.IsNotNull(crText,$"The crtext field is empty. Please fill");
-
-        //always have this object turned off when the game first starts.
-        gameObject.SetActive(false);
     }
 
     public void DisplayInfo(Suspect suspectSO){
